@@ -1,0 +1,49 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+.gitignore
+mvnw
+mvnw.cmd
+pom.xml
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+src/main/java/com/example/selecaoemprel/ClienteModel.java
+src/main/java/com/example/selecaoemprel/ClienteRepository.java
+src/main/java/com/example/selecaoemprel/ReclamacaoController.java
+src/main/java/com/example/selecaoemprel/ReclamacaoDto.java
+src/main/java/com/example/selecaoemprel/ReclamacaoModel.java
+src/main/java/com/example/selecaoemprel/ReclamcacaoRepository.java
+src/main/java/com/example/selecaoemprel/SelecaoemprelApplication.java
+src/main/resources/application.properties
+src/main/resources/templates/Dados MySQL
+src/test/java/com/example/selecaoemprel/SelecaoemprelApplicationTests.java

@@ -1,0 +1,20 @@
+{
+    "cpf": "10310410506",
+    "reclam": "AnimalComplaint"
+    
+}
+SELECT * FROM dados_emprel.cliente_model;
+
+INSERT INTO cliente_model (id, cpf) VALUES (1, 10310410506);
+INSERT INTO cliente_model (id, cpf) VALUES (2, 10610710809);
+INSERT INTO cliente_model (id, cpf) VALUES (3, 11011111213);
+INSERT INTO cliente_model (id, cpf) VALUES (4, 11411511617);
+
+DELETE FROM cliente_model WHERE id = 4;
+
+
+SELECT * FROM dados_emprel.reclamacao_model;
+
+INSERT INTO reclamacao_model (id, cpf, protocolo, reclam, cliente_id) VALUES (1, 10310410506, ' ', 'Animal Complaint', 1);
+INSERT INTO reclamacao_model (id, cpf, protocolo, reclam, cliente_id) VALUES (2, 10610710809, ' ', 'Food Complaint', 2);
+INSERT INTO reclamacao_model (id, cpf, protocolo, reclam, cliente_id) VALUES (3, 11011111213, ' ', 'Other Complaint', 3);
